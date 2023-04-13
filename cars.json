@@ -1,0 +1,67 @@
+{
+  "info": [
+    {
+      "imgUrl": "https://cdn.jdpower.com/JDPA_2021%20Mercedes-Benz%20S-Class%20Black%20At%20Speed.jpg",
+      "country": "germany",
+      "marka": "mercedes",
+      "model": "w200",
+      "capa": "2.4",
+      "price": "40000",
+      "year": "2009",
+      "id": 11
+    },
+    {
+      "imgUrl": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/porsche_newsroom/Produkte/Cayenne/b-16-9-P17_0250_fine.jpg/jcr:content/b-16-9-P17_0250_fine.jpg",
+      "country": "america",
+      "marka": "porsche",
+      "model": "cayan",
+      "capa": "4.5",
+      "price": "30000",
+      "year": "2021",
+      "id": 12
+    },
+    {
+      "imgUrl": "https://www.auto-data.net/images/f121/Daewoo-Leganza-KLAV.jpg",
+      "country": "uzdekstan",
+      "marka": "daewoo",
+      "model": "leganza",
+      "capa": "3.2",
+      "price": "3000",
+      "year": "1998",
+      "id": 13
+    },
+    {
+      "imgUrl": "https://cdn.motor1.com/images/mgl/33Moj/s1/4x3/2022-audi-a8-l.webp",
+      "country": "germany",
+      "marka": "audi",
+      "model": "a8",
+      "capa": "5.7",
+      "price": "50000",
+      "year": "2021",
+      "id": 14
+    },
+    {
+      "imgUrl": "https://cdn.motor1.com/images/mgl/43OlM/s1/2021-lexus-ls-facelift.jpg",
+      "country": "Japan",
+      "marka": "lexus",
+      "model": "ls",
+      "capa": "3.0",
+      "price": "40000",
+      "year": "2022",
+      "id": 15
+    },
+    {
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2015-bmw-x6.jpg/640px-2015-bmw-x6.jpg",
+      "country": "germany",
+      "marka": "bmw",
+      "model": "x6",
+      "capa": "6.0",
+      "price": "35000",
+      "year": "2020",
+      "id": 16
+    }
+  ],
+  "admin": {
+    "password": "sultan"
+  }
+}

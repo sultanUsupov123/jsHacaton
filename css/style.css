@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');html body{
+    font-family: 'Chivo Mono', monospace;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+header{
+    color: white;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo h1{
+    font-size: 25px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header-logo img{
+    width: 100px;
+}
+#createBlock{
+    display: block;
+    position: relative;
+    z-index: 3;
+    margin-top: -250px;
+}
+#inpSearch{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.searchBlock{
+    width: 500px;
+    height: 40px;
+    margin-top: 80px;
+}
+.adminka{
+    display: flex;
+    margin: 30px;
+}
+.adminka button{
+    border: none;
+    padding: 3px 15px;
+    /* background-color: black; */
+    color: black;
+    transition: 0.3s;
+}
+.adminka button:hover{
+    box-shadow: -1px -1px 8px white;
+}
+#passwordInpForAdmin{
+    width: 120px;
+    height: 25px;
+}
+.filter-buttons{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    background-color: black;
+}
+.filter-btn{
+    border: none;
+    padding: 8px 20px;
+    margin: 4px;
+    background-color: #2d2b2b;
+    /* color: white; */
+    border-radius: 15px;
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+}
+.filter-btn:hover{
+    border: none;
+    padding: 8px 20px;
+    margin: 4px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.formAndCards{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.allCards{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow{
+    font-size: 2rem;
+}
+.car-card{
+    margin: 10px 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+#create-form {
+    width: 40%;
+    height: 100%;
+    padding: 30px 25px 50px 25px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+#create-form input{
+    width: 100%;
+    margin: 5px 0px;
+} 
+#createBtn{
+    border: none;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 25px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 300px;
+}
+.card-btns{
+    border: none;
+    width: 40%;
+    background-color: white;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+footer{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footer-text{
+    font-size: .6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modal-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.modal-window{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 10%;
+    left: 35%;
+    /* max-width: 40%; */
+    width: 400px;
+    border: 2px solid black;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+#passwordInpForAdmin{
+    display: none;
+}
+#exitInAdmin{
+    display: none;
+}
+#closeEditModal{
+    right: 0;
+}
+#modal-form input{
+margin: 5px 0px;
+}
+
+@media(max-width:1025px){
+    .modal-window{
+        left: 30.5%;
+    }
+}
+@media(max-width:610px){
+    #create-form {
+        width: 50%;
+    }
+    #createBlock{
+        margin-top: -150px;
+    }
+    .modal-window{
+        width: 300px;
+        top: 10%;
+        left: 26%;
+    }
+}
+@media(max-width:426px){
+    #create-form {
+        width: 70%;
+    }
+    #createBlock{
+        margin-top: -80px;
+    }
+    .modal-window{
+        left: 15%;
+    }
+}
+@media(max-width:376px){
+    .modal-window{
+        left: 10%;
+    }
+}
+@media(max-width:350px){
+    .modal-window{
+        left: 5%;
+    }
+}
+@media(max-width:350px){
+    .modal-window{
+        left: 3%;
+    }
+}

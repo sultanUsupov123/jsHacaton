@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <div class="container header">
+    <div class="header-logo"><img src="./images/logo.jpg" alt=""><h1>
+        AUTO.312KG
+    </h1></div>
+    <div class="adminka">
+        <input type="text" id="passwordInpForAdmin" placeholder="enter password">
+        <button id="signInAdmin">Войти</button>
+        <button id="exitInAdmin">Выйти</button>
+        </div>
+    </div>
+</header>
+    <div class="container filter-buttons">  
+        <button class="filter-btn">Все</button>
+        <button class="filter-btn">audi</button>
+        <button class="filter-btn">lexus</button>
+        <button class="filter-btn">infinity</button>
+        <button class="filter-btn">tesla</button>
+        <button class="filter-btn">porsche</button>
+        <button class="filter-btn">daewoo</button>
+        <button class="filter-btn">mercedes</button>
+        <button class="filter-btn">bmw</button>
+        <button class="filter-btn">tayota</button>
+        <button class="filter-btn">huyndai</button>
+        <button class="filter-btn">kia</button>
+        <button class="filter-btn">honda</button>
+        <button class="filter-btn">opel</button>
+        <button class="filter-btn">nissan</button>
+      
+    </div>
+
+    <div>
+        <img src="./images/audis.jpg" alt="" style="width: 100%; z-index: -1;">
+    </div>
+    <div id="createBlock">
+        <form action="" id="create-form">
+            <h3>ADD ADS</h3>
+            <input type="text" placeholder="image-url" id="inpImage" class="createInp">
+            <input type="text" placeholder="country" id="inpCountry" class="createInp">
+            <input type="text" placeholder="marka" id="inpMarka" class="createInp">
+            <input type="text" placeholder="model" id="inpModel" class="createInp">
+            <input type="text" placeholder="engine capacity" id="inpCapa" class="createInp">
+            <input type="text" placeholder="price" id="inpPrice" class="createInp">
+            <input type="text" placeholder="year" id="inpYear" class="createInp">
+            <button type="submit" id="createBtn">create-form</button>
+            </form>
+    </div>
+    <div class="container searchBlock"><input type="text" id="inpSearch" placeholder="search by brand"></div>
+
+    <div class="container formAndCards">
+        <div class="cards-container"></div>
+            <div class="allCards">
+        <button id="paginPrevBtn" class="arrow"><</button>
+        <button id="paginNextBtn" class="arrow">></button>
+    </div>
+
+    </div>
+
+
+
+    <div class="modal-window">
+        <button id="closeEditModal">X</button>
+        <h2 style="text-align: center;">MODAL WINDOW</h2>
+        <form action="" id="modal-form">
+        <input type="text" id="inpImageEdit" class="editInp">
+        <input type="text" id="inpCountryEdit" class="editInp">
+        <input type="text" id="inpMarkaEdit" class="editInp">
+        <input type="text" id="inpModelEdit" class="editInp">
+        <input type="text" id="inpCapaEdit" class="editInp">
+        <input type="text" id="inpPriceEdit" class="editInp">  
+        <input type="text" id="inpYearEdit" class="editInp">  
+        <button type="submit" id="saveEditBtn">Save</button>   
+        </form>
+    </div>
+   
+    <footer>
+         <div class="container map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23409.693246255956!2d74.57757171083986!3d42.826142700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7e94b238811%3A0x99fae2b474e5ba0!2z0JDQstGC0L7RgdCw0LvQvtC9IEF2dG8gUmVhbA!5e0!3m2!1sru!2skg!4v1681419537927!5m2!1sru!2skg" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        <div class="container footer">
+             <div style="display: block;">
+                <span class="footer-text">Phone number: +996559438886</span>
+                <br>
+                <span class="footer-text">Email: emirsoltonbekov7@gmail.com</span>
+            </div>
+            <div>
+                <span class="footer-text"></span>
+                <br>
+            <span class="footer-text">&copy; 2023 auto312kg.com</span>
+            </div> 
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
